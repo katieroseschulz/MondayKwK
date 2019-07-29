@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="somethingNew" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Screen Shot 2019-07-29 at 9.39.56 AM" translatesAutoresizingMaskIntoConstraints="NO" id="3fh-87-Qc0">
+                                <rect key="frame" x="85" y="274" width="244" height="128.00000000000011"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOW-FT-WeG">
+                                <rect key="frame" x="85" y="432" width="67" height="30"/>
+                                <state key="normal" title="smile"/>
+                                <connections>
+                                    <action selector="smileButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PuQ-oU-9Dw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sV0-Xe-b5R">
+                                <rect key="frame" x="281" y="432" width="46" height="30"/>
+                                <state key="normal" title="library"/>
+                                <connections>
+                                    <action selector="libraryButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yjl-8k-ant"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3fh-87-Qc0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="6p3-5Z-Lv4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sV0-Xe-b5R" secondAttribute="bottom" constant="400" id="QfY-UU-06y"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tOW-FT-WeG" secondAttribute="bottom" constant="400" id="R16-aD-EbJ"/>
+                            <constraint firstItem="tOW-FT-WeG" firstAttribute="top" secondItem="3fh-87-Qc0" secondAttribute="bottom" constant="30" id="Vtp-Rl-IFG"/>
+                            <constraint firstItem="sV0-Xe-b5R" firstAttribute="top" secondItem="3fh-87-Qc0" secondAttribute="bottom" constant="30" id="W1A-Kt-PuK"/>
+                            <constraint firstItem="3fh-87-Qc0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="230" id="ego-Ha-M0a"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="3fh-87-Qc0" secondAttribute="trailing" constant="85" id="i9W-Wr-kQm"/>
+                            <constraint firstItem="tOW-FT-WeG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="85" id="rAl-rY-DhN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sV0-Xe-b5R" secondAttribute="trailing" constant="85" id="tIP-Db-auE"/>
+                            <constraint firstItem="tOW-FT-WeG" firstAttribute="top" secondItem="3fh-87-Qc0" secondAttribute="bottom" constant="30" id="uda-oY-SVu"/>
+                            <constraint firstItem="sV0-Xe-b5R" firstAttribute="leading" secondItem="tOW-FT-WeG" secondAttribute="trailing" constant="150" id="zR7-aw-6Np"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="shownImage" destination="3fh-87-Qc0" id="Sun-J5-EgN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.826086956521742" y="20.758928571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Screen Shot 2019-07-29 at 9.39.56 AM" width="382" height="478"/>
+    </resources>
+</document>

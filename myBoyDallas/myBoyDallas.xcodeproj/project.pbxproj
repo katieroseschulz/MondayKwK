@@ -1,0 +1,362 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1848328022EB78D300455588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848327F22EB78D300455588 /* AppDelegate.swift */; };
+		1848328222EB78D300455588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848328122EB78D300455588 /* ViewController.swift */; };
+		1848328522EB78D300455588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848328322EB78D300455588 /* Main.storyboard */; };
+		1848328822EB78D300455588 /* myBoyDallas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1848328622EB78D300455588 /* myBoyDallas.xcdatamodeld */; };
+		1848328A22EB78D500455588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848328922EB78D500455588 /* Assets.xcassets */; };
+		1848328D22EB78D500455588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848328B22EB78D500455588 /* LaunchScreen.storyboard */; };
+		1848329722EB7D8B00455588 /* hitchTheCowboy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848329622EB7D8B00455588 /* hitchTheCowboy.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1848327C22EB78D300455588 /* myBoyDallas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myBoyDallas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1848327F22EB78D300455588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1848328122EB78D300455588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1848328422EB78D300455588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1848328722EB78D300455588 /* myBoyDallas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myBoyDallas.xcdatamodel; sourceTree = "<group>"; };
+		1848328922EB78D500455588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1848328C22EB78D500455588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1848328E22EB78D500455588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1848329622EB7D8B00455588 /* hitchTheCowboy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hitchTheCowboy.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1848327922EB78D300455588 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1848327322EB78D300455588 = {
+			isa = PBXGroup;
+			children = (
+				1848327E22EB78D300455588 /* myBoyDallas */,
+				1848327D22EB78D300455588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1848327D22EB78D300455588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1848327C22EB78D300455588 /* myBoyDallas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1848327E22EB78D300455588 /* myBoyDallas */ = {
+			isa = PBXGroup;
+			children = (
+				1848327F22EB78D300455588 /* AppDelegate.swift */,
+				1848328122EB78D300455588 /* ViewController.swift */,
+				1848328322EB78D300455588 /* Main.storyboard */,
+				1848328922EB78D500455588 /* Assets.xcassets */,
+				1848328B22EB78D500455588 /* LaunchScreen.storyboard */,
+				1848328E22EB78D500455588 /* Info.plist */,
+				1848328622EB78D300455588 /* myBoyDallas.xcdatamodeld */,
+				1848329622EB7D8B00455588 /* hitchTheCowboy.swift */,
+			);
+			path = myBoyDallas;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1848327B22EB78D300455588 /* myBoyDallas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1848329122EB78D500455588 /* Build configuration list for PBXNativeTarget "myBoyDallas" */;
+			buildPhases = (
+				1848327822EB78D300455588 /* Sources */,
+				1848327922EB78D300455588 /* Frameworks */,
+				1848327A22EB78D300455588 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myBoyDallas;
+			productName = myBoyDallas;
+			productReference = 1848327C22EB78D300455588 /* myBoyDallas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1848327422EB78D300455588 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = sabyatha;
+				TargetAttributes = {
+					1848327B22EB78D300455588 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1848327722EB78D300455588 /* Build configuration list for PBXProject "myBoyDallas" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1848327322EB78D300455588;
+			productRefGroup = 1848327D22EB78D300455588 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1848327B22EB78D300455588 /* myBoyDallas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1848327A22EB78D300455588 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848328D22EB78D500455588 /* LaunchScreen.storyboard in Resources */,
+				1848328A22EB78D500455588 /* Assets.xcassets in Resources */,
+				1848328522EB78D300455588 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1848327822EB78D300455588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1848328822EB78D300455588 /* myBoyDallas.xcdatamodeld in Sources */,
+				1848328222EB78D300455588 /* ViewController.swift in Sources */,
+				1848328022EB78D300455588 /* AppDelegate.swift in Sources */,
+				1848329722EB7D8B00455588 /* hitchTheCowboy.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1848328322EB78D300455588 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1848328422EB78D300455588 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1848328B22EB78D500455588 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1848328C22EB78D500455588 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1848328F22EB78D500455588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1848329022EB78D500455588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1848329222EB78D500455588 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R699G9W7W5;
+				INFOPLIST_FILE = myBoyDallas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.myBoyDallas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1848329322EB78D500455588 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R699G9W7W5;
+				INFOPLIST_FILE = myBoyDallas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KWK.myBoyDallas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1848327722EB78D300455588 /* Build configuration list for PBXProject "myBoyDallas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848328F22EB78D500455588 /* Debug */,
+				1848329022EB78D500455588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1848329122EB78D500455588 /* Build configuration list for PBXNativeTarget "myBoyDallas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1848329222EB78D500455588 /* Debug */,
+				1848329322EB78D500455588 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1848328622EB78D300455588 /* myBoyDallas.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1848328722EB78D300455588 /* myBoyDallas.xcdatamodel */,
+			);
+			currentVersion = 1848328722EB78D300455588 /* myBoyDallas.xcdatamodel */;
+			path = myBoyDallas.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1848327422EB78D300455588 /* Project object */;
+}

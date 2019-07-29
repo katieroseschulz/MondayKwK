@@ -72,7 +72,27 @@ if temp == 87 {
     print ("It is not 87")
 }
 
+
+var test = "name"
+potato(name: test)
+
+
+func potato (name: String) {
+    print (name)
+}
+
  */
 
-get init
+func chip (name: String) {
+    print (name)
+}
+var test = "name"
+chip(name: test)
 
+func hello (name: String) {
+    print ("Hello \(name)")
+}
+hello(name: "Katie")
+hello(name: "Emme")
+hello(name: "Melissa")
+hello(name: "Scott")
