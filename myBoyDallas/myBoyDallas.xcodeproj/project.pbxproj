@@ -13,7 +13,11 @@
 		1848328822EB78D300455588 /* myBoyDallas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1848328622EB78D300455588 /* myBoyDallas.xcdatamodeld */; };
 		1848328A22EB78D500455588 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1848328922EB78D500455588 /* Assets.xcassets */; };
 		1848328D22EB78D500455588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1848328B22EB78D500455588 /* LaunchScreen.storyboard */; };
-		1848329722EB7D8B00455588 /* hitchTheCowboy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1848329622EB7D8B00455588 /* hitchTheCowboy.swift */; };
+		18EB38A122F222F200FA02F7 /* hawyee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB38A022F222F200FA02F7 /* hawyee.swift */; };
+		18EB38A322F2257600FA02F7 /* dreamBoy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB38A222F2257600FA02F7 /* dreamBoy.swift */; };
+		18EB38A522F22E3B00FA02F7 /* barn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB38A422F22E3B00FA02F7 /* barn.swift */; };
+		18EB38A722F22E4C00FA02F7 /* song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EB38A622F22E4C00FA02F7 /* song.swift */; };
+		18F294DE22F07AB7001EDC22 /* yeehaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F294DD22F07AB7001EDC22 /* yeehaw.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +29,11 @@
 		1848328922EB78D500455588 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1848328C22EB78D500455588 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1848328E22EB78D500455588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1848329622EB7D8B00455588 /* hitchTheCowboy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hitchTheCowboy.swift; sourceTree = "<group>"; };
+		18EB38A022F222F200FA02F7 /* hawyee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hawyee.swift; sourceTree = "<group>"; };
+		18EB38A222F2257600FA02F7 /* dreamBoy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamBoy.swift; sourceTree = "<group>"; };
+		18EB38A422F22E3B00FA02F7 /* barn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barn.swift; sourceTree = "<group>"; };
+		18EB38A622F22E4C00FA02F7 /* song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = song.swift; sourceTree = "<group>"; };
+		18F294DD22F07AB7001EDC22 /* yeehaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yeehaw.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +70,14 @@
 				1848328122EB78D300455588 /* ViewController.swift */,
 				1848328322EB78D300455588 /* Main.storyboard */,
 				1848328922EB78D500455588 /* Assets.xcassets */,
+				18EB38A622F22E4C00FA02F7 /* song.swift */,
+				18EB38A422F22E3B00FA02F7 /* barn.swift */,
+				18EB38A222F2257600FA02F7 /* dreamBoy.swift */,
+				18EB38A022F222F200FA02F7 /* hawyee.swift */,
+				18F294DD22F07AB7001EDC22 /* yeehaw.swift */,
 				1848328B22EB78D500455588 /* LaunchScreen.storyboard */,
 				1848328E22EB78D500455588 /* Info.plist */,
 				1848328622EB78D300455588 /* myBoyDallas.xcdatamodeld */,
-				1848329622EB7D8B00455588 /* hitchTheCowboy.swift */,
 			);
 			path = myBoyDallas;
 			sourceTree = "<group>";
@@ -141,10 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EB38A322F2257600FA02F7 /* dreamBoy.swift in Sources */,
 				1848328822EB78D300455588 /* myBoyDallas.xcdatamodeld in Sources */,
 				1848328222EB78D300455588 /* ViewController.swift in Sources */,
+				18EB38A522F22E3B00FA02F7 /* barn.swift in Sources */,
+				18EB38A722F22E4C00FA02F7 /* song.swift in Sources */,
+				18EB38A122F222F200FA02F7 /* hawyee.swift in Sources */,
 				1848328022EB78D300455588 /* AppDelegate.swift in Sources */,
-				1848329722EB7D8B00455588 /* hitchTheCowboy.swift in Sources */,
+				18F294DE22F07AB7001EDC22 /* yeehaw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
